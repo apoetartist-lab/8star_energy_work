@@ -154,6 +154,10 @@ body{
   .hero{padding:2.5rem 1rem;min-height:auto}
   .hero-card{padding:2rem 1.25rem}
 }
+.home-link{position:relative;z-index:1;color:var(--navy);text-decoration:none;font-size:0.82rem;letter-spacing:0.05em;white-space:nowrap}
+.footer-home{display:inline-block;margin-top:0.6rem;color:var(--navy);text-decoration:none;font-size:0.8rem;letter-spacing:0.08em;position:relative;z-index:1}
+.home-link{display:none}
+@media(max-width:600px){.home-link{display:inline}}
 </style>
 </head>
 <body>
@@ -168,6 +172,7 @@ body{
     <a href="https://8star-11i11.com/" target="_blank" rel="noopener">home</a>
     <a href="https://lin.ee/nk0Chom" target="_blank" rel="noopener">LINE</a>
   </nav>
+  <a class="home-link" href="https://8star-11i11.com/">→ home</a>
 </header>
 
 <div class="top-cta">
@@ -342,6 +347,7 @@ body{
 
 <footer class="site-footer">
   <p>© 2017 8star energy work</p>
+  <p><a class="footer-home" href="https://8star-11i11.com/">→ home</a></p>
 </footer>
 
 </body>
